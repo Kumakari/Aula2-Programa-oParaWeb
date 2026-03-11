@@ -1,0 +1,46 @@
+body{
+    font-family: sans-serif;
+    text-align: center;
+}
+
+#cabeçalho{
+    display: flex;
+    width: 1005px;
+    height: 23px;
+    margin-top: 65px;
+    margin-left: 122px;
+    margin-right: 153px;
+    margin-bottom: 109px;
+}
+
+#cabeçalho strong{
+    width: 103px;
+    height: 22px;
+    color: #89C5CC;
+    font-weight: bold;
+    text-shadow: 0px 4px 4px #00000040;
+}
+
+#menu{
+    display: flex;
+    gap: 48px;
+    margin-left: 860px;
+}
+#menu a{
+    text-decoration: none;
+    color: #1F1534;
+    opacity: 0.5;
+}
+#menu .Home{
+    text-decoration: none;
+    opacity: 1;
+    font-weight: 700;
+}
+
+#corpo{
+    display: flex;
+    width: 1002px;
+    height: 332px;
+    margin-left: 119px;
+    gap: 32;
+}
