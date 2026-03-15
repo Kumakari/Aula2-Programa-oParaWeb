@@ -1,35 +1,50 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projeto 2</title>
-
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header id="cabeçalho">
-        <strong>treine.me</strong>
+        <div class="topo">
+            <p>treine.me</p>
 
-        <nav id="menu">
-            <a href="#" class="Home">Home</a>
-
-            <a href="#">Sobre</a>
-            <a href="#">Treinar</a>
-        </nav>
+            <nav class="menu">
+                <a href="#" class="Destaque">Home</a>
+                <a href="#">Sobre</a>
+                <a href="#">Treinar</a>
+            </nav>
+        </div>
     </header>
 
     <main id="corpo">
-        <img src="img.jpg" alt="duas pessoas treinando">
+        <section>
+            <div class="texto">
+                <h1>Treinos <span>exclusivos</span> para você!</h1>
 
-        <h1>Treinos <span>exclusivos</span> para você!</h1>
-        
-        <p>Nós criamos treinos exclusivos e únicos para você.
-        Invista no seu corpo e tenha muito mais performance e qualidade de vida.</p>
+                <p>
+                    Nós criamos treinos <span>exclusivos e únicos para você.</span>
+                    Invista no seu corpo e <span>tenha muito mais performance</span> e qualidade de vida.
+                </p>
 
-        <button>Comece já</button>
+                <button class="WhatsApp">
+                    <img src="imageWhats.png" alt="Icone WhatsApp">
+                    Comece já
+                </button>
+            </div>
+            <div class="imagem">
+                <img src="img.jpg" alt="Duas pessoas treinando">
+            </div>
+        </section>
     </main>
 
-    <footer>fale concosco no instagram <strong>@treine.me</strong></footer>
+    <footer id="rodape">
+        fale concosco no instagram <strong>@treine.me</strong>
+    </footer>
 </body>
+
 </html>
